@@ -15,7 +15,7 @@ body {
   overflow: hidden;
 }
 
-.clock::before {
+/* .clock::before {
   content: "";
   border-radius: 50%;
   position: absolute;
@@ -24,7 +24,7 @@ body {
   bottom: 0px;
   left: 0px;
   opacity: 0.75;
-}
+} */
 
 .clock {
   width: 350px;

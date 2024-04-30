@@ -29,7 +29,7 @@ setClock();
 const clock = document.getElementById("clock");
 clock.style.backgroundColor = "black";
 clock.style.color = "white";
-document.body.style.background = "aqua";
+document.body.style.background = "rgb(193 223 189)";
 
 //color selection
 // let first = document.getElementById("one");
@@ -72,6 +72,7 @@ colorPick.addEventListener("input", () => {
     }
 
 })
+
 
 function backColorChange(partColor) {
     partColor.style.backgroundColor = colorPick.value;
